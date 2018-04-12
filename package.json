@@ -18,11 +18,15 @@
     "heroku": "^0.2.0",
     "heroku-cli": "^6.16.11",
     "heroku-cli-node": "^2.1.0",
+    "nodemon": "^1.17.3",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0",
     "semver": "^5.5.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
   },
   "author": "",
   "license": "ISC"
